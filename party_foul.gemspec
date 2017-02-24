@@ -3,11 +3,11 @@ require File.expand_path('../lib/party_foul/version', __FILE__)
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'party_foul'
+  s.name        = 'party_fouls'
   s.version     = PartyFoul::VERSION
   s.authors     = ['Brian Cardarella', 'Dan McClain']
   s.email       = ['bcardarella@gmail.com', 'rubygems@danmcclain.net']
-  s.homepage    = 'https://github.com/dockyard/party_foul'
+  s.homepage    = 'https://github.com/neighborland/party_foul'
   s.summary     = 'Auto-submit Rails exceptions as new issues on GitHub'
   s.description = 'Auto-submit Rails exceptions as new issues on GitHub'
   s.license     = 'MIT'
