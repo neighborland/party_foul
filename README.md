@@ -4,6 +4,10 @@ Rails exceptions automatically opened as issues on GitHub
 
 # This is a fork, released as the `party_fouls` gem
 
+```ruby
+gem 'party_fouls', require: 'party_foul'
+```
+
 ## Looking for help? ##
 
 If it is a bug [please open an issue on
@@ -36,12 +40,6 @@ a collaborator on your repository. Use this new account's credentials
 for the installation below. If you use your own account you will
 not receive emails when issues are created, updated, reopened, etc...
 because all of the work is done as your account.
-
-In your Gemfile add the following:
-
-```ruby
-gem 'party_foul'
-```
 
 ### Rails ###
 If you are using Rails you can run the install generator.
