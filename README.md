@@ -1,10 +1,12 @@
 # PartyFoul #
 
-[![Build Status](https://secure.travis-ci.org/DockYard/party_foul.svg?branch=master)](http://travis-ci.org/DockYard/party_foul)
-[![Dependency Status](https://gemnasium.com/dockyard/party_foul.svg?travis)](https://gemnasium.com/dockyard/party_foul)
-[![Code Climate](https://codeclimate.com/github/dockyard/party_foul.svg)](https://codeclimate.com/github/dockyard/party_foul)
-
 Rails exceptions automatically opened as issues on GitHub
+
+# This is a fork, released as the `party_fouls` gem
+
+```ruby
+gem 'party_fouls', require: 'party_foul'
+```
 
 ## Looking for help? ##
 
@@ -38,12 +40,6 @@ a collaborator on your repository. Use this new account's credentials
 for the installation below. If you use your own account you will
 not receive emails when issues are created, updated, reopened, etc...
 because all of the work is done as your account.
-
-In your Gemfile add the following:
-
-```ruby
-gem 'party_foul'
-```
 
 ### Rails ###
 If you are using Rails you can run the install generator.
