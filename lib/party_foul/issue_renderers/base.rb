@@ -134,7 +134,7 @@ BODY
       else
         value = CGI.escapeHTML(value.to_s)
       end
-      rows << "<tr><th>#{key}</th><td>#{value}</td></tr>"
+      rows += "<tr><th>#{key}</th><td>#{value}</td></tr>"
     end
   end
 
