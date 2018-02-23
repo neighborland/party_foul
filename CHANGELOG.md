@@ -1,10 +1,12 @@
-## Unreleased
+## 1.6.0
  * Require ruby 2.3
  * Freeze strings
  * Do not distribute test files with gem
 
 ## 1.5.6
  * Upgrade Octokit to 4.x
+
+--- gem forked to `party_fouls`
 
 ## 1.5.5
  * Remove unused attr whitelisted\_rack\_variables
