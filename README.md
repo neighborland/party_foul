@@ -8,11 +8,6 @@ Rails exceptions automatically opened as issues on GitHub
 gem 'party_fouls', require: 'party_foul'
 ```
 
-## Looking for help? ##
-
-If it is a bug [please open an issue on
-GitHub](https://github.com/dockyard/party_foul/issues).
-
 ## About ##
 
 `PartyFoul` captures exceptions in your application and does the
@@ -240,22 +235,14 @@ end
 
 This will pass the worker class name and queue as well as all worker-related parameters off to PartyFoul before passing on the exception.
 
-## Authors ##
+## Authors (original) ##
 
 * [Brian Cardarella](http://twitter.com/bcardarella)
 * [Dan McClain](http://twitter.com/_danmcclain)
 
-[We are very thankful for the many contributors](https://github.com/dockyard/party_foul/graphs/contributors)
-
 ## Versioning ##
 
 This gem follows [Semantic Versioning](http://semver.org)
-
-## Want to help? ##
-
-Please do! We are always looking to improve this gem. Please see our
-[Contribution Guidelines](https://github.com/dockyard/party_foul/blob/master/CONTRIBUTING.md)
-on how to properly submit issues and pull requests.
 
 ## Legal ##
 
