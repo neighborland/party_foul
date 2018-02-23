@@ -2,7 +2,6 @@
 
 require File.expand_path('../lib/party_foul/version', __FILE__)
 
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'party_fouls'
   s.version     = PartyFoul::VERSION
@@ -13,15 +12,15 @@ Gem::Specification.new do |s|
   s.description = 'Auto-submit Rails exceptions as new issues on GitHub'
   s.license     = 'MIT'
 
-  s.required_ruby_version = '>= 2.1.0'
+  s.required_ruby_version = '>= 2.3.3'
 
   s.files = Dir['{app,config,db,lib}/**/*'] + ['Rakefile', 'README.md']
 
   s.add_dependency 'octokit', '~> 4.2'
 
-  s.add_development_dependency 'actionpack', '~> 4.0'
-  s.add_development_dependency 'activesupport', '~> 4.0'
-  s.add_development_dependency 'railties', '~> 4.0'
+  s.add_development_dependency 'actionpack', '~> 5.0'
+  s.add_development_dependency 'activesupport', '~> 5.0'
+  s.add_development_dependency 'railties', '~> 5.0'
   s.add_development_dependency 'minitest', '~> 5.8'
   s.add_development_dependency 'webmock'
   s.add_development_dependency 'rack-test'
