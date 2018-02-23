@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'party_foul/processors/base'
 
 class PartyFoul::Processors::DelayedJob < PartyFoul::Processors::Base

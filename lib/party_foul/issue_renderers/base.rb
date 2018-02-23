@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'cgi'
 
 class PartyFoul::IssueRenderers::Base
@@ -15,13 +17,11 @@ class PartyFoul::IssueRenderers::Base
   #
   # @return [String]
   def title
-    _title = if PartyFoul.title_prefix
+    if PartyFoul.title_prefix
       "[#{PartyFoul.title_prefix}] #{masked_title}"
     else
       masked_title
-    end
-
-    _title[0..255]
+    end[0..255]
   end
 
   # Renders the issue body
@@ -134,7 +134,7 @@ BODY
       else
         value = CGI.escapeHTML(value.to_s)
       end
-      rows << "<tr><th>#{key}</th><td>#{value}</td></tr>"
+      rows += "<tr><th>#{key}</th><td>#{value}</td></tr>"
     end
   end
 

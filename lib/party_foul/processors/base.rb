@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PartyFoul::Processors::Base
   # Passes the exception and rack env data to the ExceptionHandler and
   # runs everything synchronously. This base class method must be
