@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PartyFoul::ExceptionHandler
   attr_accessor :rendered_issue
 

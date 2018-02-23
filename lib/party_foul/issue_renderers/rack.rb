@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PartyFoul::IssueRenderers::Rack < PartyFoul::IssueRenderers::Base
     
   def request

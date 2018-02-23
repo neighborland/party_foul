@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 require 'rails/generators/test_case'
 require 'generators/party_foul/install_generator'

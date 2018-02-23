@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PartyFoul::IssueRenderers::Rails < PartyFoul::IssueRenderers::Rack
   # Rails params hash. Filtered parms are respected.
   #

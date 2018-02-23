@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PartyFoul::RacklessExceptionHandler < PartyFoul::ExceptionHandler
   # This handler will pass the exception and working environment from Rack off to a processor.
   # The default PartyFoul processor will work synchronously. Processor adapters can be written

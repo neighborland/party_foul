@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'party_foul/issue_renderers/base'
 
 class PartyFoul::IssueRenderers::Rackless < PartyFoul::IssueRenderers::Base

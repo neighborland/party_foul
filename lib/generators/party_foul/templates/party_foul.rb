@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 PartyFoul.configure do |config|
   # The collection of exceptions PartyFoul should not be allowed to handle
   # The constants here *must* be represented as strings

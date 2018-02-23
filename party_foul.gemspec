@@ -1,4 +1,5 @@
-# Maintain your gem's version:
+# frozen_string_literal: true
+
 require File.expand_path('../lib/party_foul/version', __FILE__)
 
 # Describe your gem and declare its dependencies:
