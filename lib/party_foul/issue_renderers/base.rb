@@ -17,13 +17,11 @@ class PartyFoul::IssueRenderers::Base
   #
   # @return [String]
   def title
-    _title = if PartyFoul.title_prefix
+    if PartyFoul.title_prefix
       "[#{PartyFoul.title_prefix}] #{masked_title}"
     else
       masked_title
-    end
-
-    _title[0..255]
+    end[0..255]
   end
 
   # Renders the issue body
