@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.1.0'
 
   s.files = Dir['{app,config,db,lib}/**/*'] + ['Rakefile', 'README.md']
-  s.test_files = Dir['test/**/*']
 
   s.add_dependency 'octokit', '~> 4.2'
 
